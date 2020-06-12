@@ -53,7 +53,7 @@ public class LoginTest {
 		driver.findElement(By.id("Password")).sendKeys("Tosca12345!");
 		driver.findElement(By.xpath("//input[@class='button-1 login-button']")).click();
 		System.out.println(driver.getTitle());
-        System.out.println("Testing Done !");
+        
 		driver.quit();
 	}
 
